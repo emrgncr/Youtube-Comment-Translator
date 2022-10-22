@@ -1,0 +1,10 @@
+{
+    "name": "Youtube Comment Translator",
+    "version": "0.1.0",
+    "description": "A browser addon that adds translate buttons on youtube comments (Youtube already has this functionality but it does not work for me sometimes.)",
+    "permissions": ["activeTab","tabs","*://youtube.com/watch*"],
+    "background":{
+      "scripts":["scr.js"]
+    },
+    "manifest_version": 2
+}
